@@ -1,6 +1,7 @@
 ﻿using System.Linq;
 using Weather_Application.Interfaces;
 using Weather_Application.Models;
+using static Weather_Application.Models.WeatherData;
 using static Weather_Application.Models.WeatherData5Days;
 
 namespace Weather_Application.Services;
@@ -15,14 +16,15 @@ public class RequestProcessingService : IRequestProcessing
     }
     public string PrintWeatherData(string cityName)
     {
-        WeatherData weatherData = _connection.GetWeatherData(cityName);
+        WeatherResponse weatherData = _connection.GetWeatherData(cityName);
 
         string resultMessage = $"\nWeather: {weatherData.weather[0]!.main} - {weatherData.weather[0]!.description}" +
-            $"\nTemperature: {weatherData.main!.temp}" +
-            $"\n\tMin temperature: {weatherData.main!.temp_min}" +
-            $"\n\tMax temperature: {weatherData.main!.temp_max}" +
-            $"\nHumidity: {weatherData.main!.humidity}" +
-            $"\nWind speed: {weatherData.wind!.speed}";
+                $"\nTemperature: {weatherData.main!.temp}°C - Feels like: {weatherData.main!.feels_like}°C" +
+                $"\n\tMin temperature: {weatherData.main!.temp_min}°C" +
+                $"\n\tMax temperature: {weatherData.main!.temp_max}°C" +
+                $"\nCloudiness: {weatherData.clouds.all}%" +
+                $"\nHumidity: {weatherData.main!.humidity}%" +
+                $"\nWind speed: {weatherData.wind!.speed}m/s";
         return resultMessage;
     }
 
@@ -41,10 +43,9 @@ public class RequestProcessingService : IRequestProcessing
                 $"\n\tMax temperature: {forcast.main!.temp_max}°C" +
                 $"\nCloudiness: {forcast.clouds.all}%" +
                 $"\nHumidity: {forcast.main!.humidity}%" +
-                $"\nWind speed: {forcast.wind!.speed}m/s" +
-                $"\n-----------------------------------";
-            resultMessage = resultMessage + message;
+                $"\nWind speed: {forcast.wind!.speed}m/s";
+            resultMessage = resultMessage + "\n\n-----------------------------------\n" + message;
         }
         return resultMessage;
     }
-}   
+}

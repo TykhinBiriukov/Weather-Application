@@ -62,7 +62,7 @@ public class WeatherData5Days
 
     public class SysInfo
     {
-        public string pod { get; set; } // Part of the day ("d" for day, "n" for night)
+        public string pod { get; set; } // Part of the day
     }
 
     public class CityInfo
@@ -82,5 +82,4 @@ public class WeatherData5Days
         public double lat { get; set; }
         public double lon { get; set; }
     }
-
 }

@@ -25,7 +25,7 @@ public class UserInputConfigurService : IUserInputConfigur
 
             default:
                 Console.Write("\nPlease enter nummber from 1 to 3" +
-                    "\nPress enter to continue ");
+                    "\nPress enter to continue \n");
                 Console.ReadLine();
                 break;
         }
@@ -36,20 +36,42 @@ public class UserInputConfigurService : IUserInputConfigur
     static void Case1Forecast1Day(IRequestProcessing _requestProcessing)
     {
         Console.Write("\nPlease enter city name: ");
-        string cityName = Console.ReadLine();
-        Console.WriteLine(_requestProcessing.PrintWeatherData(cityName));
+        while (true)
+        {
+            try
+            {
+                string cityName = Console.ReadLine();
+                Console.WriteLine(_requestProcessing.PrintWeatherData(cityName));
 
-        Console.Write("Press enter to continue \n");
-        Console.ReadLine();
+                Console.Write("Press enter to continue \n");
+                Console.ReadLine();
+                return;
+            }
+            catch
+            {
+                Console.Write("Please enter valid city name: ");
+            }
+        }
     }
 
     static void Case2Forecast5Days(IRequestProcessing _requestProcessing)
     {
         Console.Write("\nPlease enter city name: ");
-        string cityName = Console.ReadLine();
-        Console.WriteLine(_requestProcessing.PrintWeatherData5Days(cityName));
+        while (true)
+        {
+            try
+            {
+                string cityName = Console.ReadLine();
+                Console.WriteLine(_requestProcessing.PrintWeatherData5Days(cityName));
 
-        Console.Write("Press enter to continue \n");
-        Console.ReadLine();
+                Console.Write("Press enter to continue \n");
+                Console.ReadLine();
+                return;
+            }
+            catch
+            {
+                Console.Write("Please enter valid city name: ");
+            }
+        }
     }
 }

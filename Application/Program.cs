@@ -21,7 +21,7 @@ while (true)
         "\n1. Forecast for today" +
         "\n2. Forecast for 5 days" +
         "\n3. Exit");
-    Console.Write("\nPlease choose your action: ");
+    Console.Write("Please choose your action: ");
 
     int userInput;
     try
