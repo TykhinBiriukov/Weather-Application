@@ -1,0 +1,20 @@
+D:\Programming\Projects\C#\Weather Application\Application\bin\Debug\net8.0\Weather Application.exe
+D:\Programming\Projects\C#\Weather Application\Application\bin\Debug\net8.0\Weather Application.deps.json
+D:\Programming\Projects\C#\Weather Application\Application\bin\Debug\net8.0\Weather Application.runtimeconfig.json
+D:\Programming\Projects\C#\Weather Application\Application\bin\Debug\net8.0\Weather Application.dll
+D:\Programming\Projects\C#\Weather Application\Application\bin\Debug\net8.0\Weather Application.pdb
+D:\Programming\Projects\C#\Weather Application\Application\obj\Debug\net8.0\Weather Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Projects\C#\Weather Application\Application\obj\Debug\net8.0\Weather Application.AssemblyInfoInputs.cache
+D:\Programming\Projects\C#\Weather Application\Application\obj\Debug\net8.0\Weather Application.AssemblyInfo.cs
+D:\Programming\Projects\C#\Weather Application\Application\obj\Debug\net8.0\Weather Application.csproj.CoreCompileInputs.cache
+D:\Programming\Projects\C#\Weather Application\Application\obj\Debug\net8.0\Weather Application.sourcelink.json
+D:\Programming\Projects\C#\Weather Application\Application\obj\Debug\net8.0\Weather Application.dll
+D:\Programming\Projects\C#\Weather Application\Application\obj\Debug\net8.0\refint\Weather Application.dll
+D:\Programming\Projects\C#\Weather Application\Application\obj\Debug\net8.0\Weather Application.pdb
+D:\Programming\Projects\C#\Weather Application\Application\obj\Debug\net8.0\Weather Application.genruntimeconfig.cache
+D:\Programming\Projects\C#\Weather Application\Application\obj\Debug\net8.0\ref\Weather Application.dll
+D:\Programming\Projects\C#\Weather Application\Application\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Programming\Projects\C#\Weather Application\Application\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Programming\Projects\C#\Weather Application\Application\bin\Debug\net8.0\RestSharp.dll
+D:\Programming\Projects\C#\Weather Application\Application\obj\Debug\net8.0\Weather Application.csproj.AssemblyReference.cache
+D:\Programming\Projects\C#\Weather Application\Application\obj\Debug\net8.0\Weather .F6EF7EE9.Up2Date
