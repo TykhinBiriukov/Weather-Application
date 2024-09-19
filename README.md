@@ -14,7 +14,7 @@ Weather Application is a console-based pet project that allows users to display 
 - Dependency Injection via `Microsoft.Extensions.DependencyInjection`
 - HTTP requests via `HttpClient`
 - JSON Parsing via `System.Text.Json`
-- Database via `SQlite` (in process)
+- Database via `SQlite`
 
 ### Backend
 
