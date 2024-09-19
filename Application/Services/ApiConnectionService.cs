@@ -21,15 +21,13 @@ public class ApiConnectionService : IApiConnection
         return JsonSerializer.Deserialize<WeatherResponse>(jsonResult)!;
     }
 
-    public List<Forecast> GetWeatherData5Days(string cityName)
+    public WeatherForecast GetWeatherData5Days(string cityName)
     {
         string url = $"https://api.openweathermap.org/data/2.5/forecast?q={cityName}&appid={apiKey}&units=metric";
 
         string jsonResult = SetUpClient(url);
 
-        WeatherForecast weatherData = JsonSerializer.Deserialize<WeatherForecast>(jsonResult)!;
-        List<Forecast> forecasts = weatherData.list;
-        return forecasts;
+        return JsonSerializer.Deserialize<WeatherForecast>(jsonResult)!;
     }
 
     static string SetUpClient(string url)

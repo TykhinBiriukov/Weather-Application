@@ -7,36 +7,28 @@
       "RelativeMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|d:\\programming\\projects\\c#\\weather application\\application\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|solutionrelative:services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|d:\\programming\\projects\\c#\\weather application\\application\\services\\databasehelperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|solutionrelative:services\\databasehelperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|d:\\programming\\projects\\c#\\weather application\\application\\services\\databasevalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|solutionrelative:services\\databasevalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|d:\\programming\\projects\\c#\\weather application\\application\\services\\userinputconfigurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|solutionrelative:services\\userinputconfigurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|d:\\programming\\projects\\c#\\weather application\\application\\services\\requestprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|solutionrelative:services\\requestprocessingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|d:\\programming\\projects\\c#\\weather application\\application\\services\\apiconnectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|solutionrelative:services\\apiconnectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|d:\\programming\\projects\\c#\\weather application\\application\\models\\weatherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|solutionrelative:models\\weatherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|d:\\programming\\projects\\c#\\weather application\\application\\models\\weatherdata5days.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|solutionrelative:models\\weatherdata5days.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|d:\\programming\\projects\\c#\\weather application\\application\\interfaces\\irequestprocessing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|solutionrelative:interfaces\\irequestprocessing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|d:\\programming\\projects\\c#\\weather application\\application\\interfaces\\iapiconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|solutionrelative:interfaces\\iapiconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|d:\\programming\\projects\\c#\\weather application\\application\\interfaces\\iuserinputconfigur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|solutionrelative:interfaces\\iuserinputconfigur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|d:\\programming\\projects\\c#\\weather application\\application\\services\\apiconnectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3707DC83-7800-4EFA-A092-8D4C2BC5938A}|Weather Application.csproj|solutionrelative:services\\apiconnectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -56,11 +48,19 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Programming\\Projects\\C#\\Weather Application\\Application\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAACA//////8UwCEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T11:26:34.342Z",
               "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5849128:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
             },
             {
               "$type": "Bookmark",
@@ -71,56 +71,60 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1320875728:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseHelperService.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\C#\\Weather Application\\Application\\Services\\DatabaseHelperService.cs",
+              "RelativeDocumentMoniker": "Services\\DatabaseHelperService.cs",
+              "ToolTip": "D:\\Programming\\Projects\\C#\\Weather Application\\Application\\Services\\DatabaseHelperService.cs",
+              "RelativeToolTip": "Services\\DatabaseHelperService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T21:08:14.344Z"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\C#\\Weather Application\\Application\\Services\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "Services\\DatabaseService.cs",
+              "ToolTip": "D:\\Programming\\Projects\\C#\\Weather Application\\Application\\Services\\DatabaseService.cs",
+              "RelativeToolTip": "Services\\DatabaseService.cs",
+              "ViewState": "AgIAACEAAADAZWZmZmYRwCgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:35:55.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DatabaseValidationService.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\C#\\Weather Application\\Application\\Services\\DatabaseValidationService.cs",
+              "RelativeDocumentMoniker": "Services\\DatabaseValidationService.cs",
+              "ToolTip": "D:\\Programming\\Projects\\C#\\Weather Application\\Application\\Services\\DatabaseValidationService.cs",
+              "RelativeToolTip": "Services\\DatabaseValidationService.cs",
+              "ViewState": "AgIAAAMAAACAmZmZmRkmwBIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T18:40:10.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UserInputConfigurService.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\C#\\Weather Application\\Application\\Services\\UserInputConfigurService.cs",
               "RelativeDocumentMoniker": "Services\\UserInputConfigurService.cs",
               "ToolTip": "D:\\Programming\\Projects\\C#\\Weather Application\\Application\\Services\\UserInputConfigurService.cs",
               "RelativeToolTip": "Services\\UserInputConfigurService.cs",
-              "ViewState": "AgIAAEUAAAAA6P7////jv0wAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAD4vyQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T17:15:16.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RequestProcessingService.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\C#\\Weather Application\\Application\\Services\\RequestProcessingService.cs",
-              "RelativeDocumentMoniker": "Services\\RequestProcessingService.cs",
-              "ToolTip": "D:\\Programming\\Projects\\C#\\Weather Application\\Application\\Services\\RequestProcessingService.cs",
-              "RelativeToolTip": "Services\\RequestProcessingService.cs",
-              "ViewState": "AgIAABAAAAAAMTMzM/MlwDIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T12:12:44.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApiConnectionService.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\C#\\Weather Application\\Application\\Services\\ApiConnectionService.cs",
-              "RelativeDocumentMoniker": "Services\\ApiConnectionService.cs",
-              "ToolTip": "D:\\Programming\\Projects\\C#\\Weather Application\\Application\\Services\\ApiConnectionService.cs",
-              "RelativeToolTip": "Services\\ApiConnectionService.cs",
-              "ViewState": "AgIAAAUAAAAAYmZmZmb0vxcAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T16:55:12.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WeatherData.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\C#\\Weather Application\\Application\\Models\\WeatherData.cs",
-              "RelativeDocumentMoniker": "Models\\WeatherData.cs",
-              "ToolTip": "D:\\Programming\\Projects\\C#\\Weather Application\\Application\\Models\\WeatherData.cs",
-              "RelativeToolTip": "Models\\WeatherData.cs",
-              "ViewState": "AgIAACIAAADwzMzMzIw2wEkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T17:29:55.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-14T17:15:16.647Z"
             },
             {
               "$type": "Document",
@@ -130,49 +134,21 @@
               "RelativeDocumentMoniker": "Models\\WeatherData5Days.cs",
               "ToolTip": "D:\\Programming\\Projects\\C#\\Weather Application\\Application\\Models\\WeatherData5Days.cs",
               "RelativeToolTip": "Models\\WeatherData5Days.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T21:42:20.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-14T21:42:20.913Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IRequestProcessing.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\C#\\Weather Application\\Application\\Interfaces\\IRequestProcessing.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IRequestProcessing.cs",
-              "ToolTip": "D:\\Programming\\Projects\\C#\\Weather Application\\Application\\Interfaces\\IRequestProcessing.cs",
-              "RelativeToolTip": "Interfaces\\IRequestProcessing.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Title": "ApiConnectionService.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\C#\\Weather Application\\Application\\Services\\ApiConnectionService.cs",
+              "RelativeDocumentMoniker": "Services\\ApiConnectionService.cs",
+              "ToolTip": "D:\\Programming\\Projects\\C#\\Weather Application\\Application\\Services\\ApiConnectionService.cs",
+              "RelativeToolTip": "Services\\ApiConnectionService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAD4vx4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T12:08:39.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IApiConnection.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\C#\\Weather Application\\Application\\Interfaces\\IApiConnection.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IApiConnection.cs",
-              "ToolTip": "D:\\Programming\\Projects\\C#\\Weather Application\\Application\\Interfaces\\IApiConnection.cs",
-              "RelativeToolTip": "Interfaces\\IApiConnection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T11:23:44.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IUserInputConfigur.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\C#\\Weather Application\\Application\\Interfaces\\IUserInputConfigur.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IUserInputConfigur.cs",
-              "ToolTip": "D:\\Programming\\Projects\\C#\\Weather Application\\Application\\Interfaces\\IUserInputConfigur.cs",
-              "RelativeToolTip": "Interfaces\\IUserInputConfigur.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T18:12:21.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T16:55:12.898Z"
             }
           ]
         }

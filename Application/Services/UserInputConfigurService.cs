@@ -1,18 +1,23 @@
 ﻿using Weather_Application.Interfaces;
+using static Weather_Application.Models.WeatherData5Days;
+using Weather_Application.Models;
 
 namespace Weather_Application.Services;
 
 public class UserInputConfigurService : IUserInputConfigur
 {
     private readonly IRequestProcessing _requestProcessing;
+    private readonly IDatabaseHelper _databaseHelper;
 
-    public UserInputConfigurService(IRequestProcessing requestProcessing)
+    public UserInputConfigurService(IRequestProcessing requestProcessing, IDatabaseHelper databaseHelper)
     {
         _requestProcessing = requestProcessing;
+        _databaseHelper = databaseHelper;
     }
 
     public void ConfigurUserInput(int userInput)
     {
+        _databaseHelper.InitDatabase();
         switch (userInput)
         {
             case 1:

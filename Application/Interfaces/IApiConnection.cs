@@ -9,5 +9,5 @@ namespace Weather_Application.Interfaces;
 public interface IApiConnection
 {
     WeatherResponse GetWeatherData(string cityName);
-    List<Forecast> GetWeatherData5Days(string cityName);
+    WeatherForecast GetWeatherData5Days(string cityName);
 }

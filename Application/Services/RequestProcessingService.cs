@@ -9,10 +9,12 @@ namespace Weather_Application.Services;
 public class RequestProcessingService : IRequestProcessing
 {
     private readonly IApiConnection _connection;
+    private readonly IDatabase _database;
 
-    public RequestProcessingService(IApiConnection connection)
+    public RequestProcessingService(IApiConnection connection, IDatabase database)
     {
         _connection = connection;
+        _database = database;
     }
     public string PrintWeatherData(string cityName)
     {
@@ -30,20 +32,24 @@ public class RequestProcessingService : IRequestProcessing
 
     public string PrintWeatherData5Days(string cityName)
     {
-        List<Forecast> forcasts = _connection.GetWeatherData5Days(cityName);
-        string resultMessage = null!;
+        WeatherForecast weatherData = _connection.GetWeatherData5Days(cityName);
+        _database.InsertOrUpdateForecast(weatherData);
+        List<Forecast> forecasts = weatherData.list;
+        CityInfo cityInfo = weatherData.city;
 
-        foreach (Forecast forcast in forcasts)
+        string resultMessage = $"\n{cityInfo.name}";
+
+        foreach (Forecast forecast in forecasts)
         {
-            string message = $"\nDate: {forcast.dt_txt}" +
-                $"\nWeather: {forcast.weather[0]!.main} - {forcast.weather[0]!.description}" +
-                $"\n\tProbability of precipitation: {forcast.pop *100}%" +
-                $"\nTemperature: {forcast.main!.temp}°C - Feels like: {forcast.main!.feels_like}°C" +
-                $"\n\tMin temperature: {forcast.main!.temp_min}°C" +
-                $"\n\tMax temperature: {forcast.main!.temp_max}°C" +
-                $"\nCloudiness: {forcast.clouds.all}%" +
-                $"\nHumidity: {forcast.main!.humidity}%" +
-                $"\nWind speed: {forcast.wind!.speed}m/s";
+            string message = $"\nDate: {forecast.dt_txt}" +
+                $"\nWeather: {forecast.weather[0]!.main} - {forecast.weather[0]!.description}" +
+                $"\n\tProbability of precipitation: {forecast.pop *100}%" +
+                $"\nTemperature: {forecast.main!.temp}°C - Feels like: {forecast.main!.feels_like}°C" +
+                $"\n\tMin temperature: {forecast.main!.temp_min}°C" +
+                $"\n\tMax temperature: {forecast.main!.temp_max}°C" +
+                $"\nCloudiness: {forecast.clouds.all}%" +
+                $"\nHumidity: {forecast.main!.humidity}%" +
+                $"\nWind speed: {forecast.wind!.speed}m/s";
             resultMessage = resultMessage + "\n\n-----------------------------------\n" + message;
         }
         return resultMessage;

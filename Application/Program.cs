@@ -4,12 +4,16 @@ using System.Text.Json;
 using Weather_Application.Interfaces;
 using Weather_Application.Models;
 using Weather_Application.Services;
+using static Weather_Application.Models.WeatherData5Days;
 
 var serviceCollection = new ServiceCollection();
 serviceCollection
     .AddSingleton<IApiConnection, ApiConnectionService>()
     .AddSingleton<IRequestProcessing, RequestProcessingService>()
-    .AddSingleton<IUserInputConfigur, UserInputConfigurService>();
+    .AddSingleton<IUserInputConfigur, UserInputConfigurService>()
+    .AddSingleton<IDatabaseHelper, DatabaseHelper>()
+    .AddSingleton<IDatabase, DatabaseService>()
+    .AddSingleton<IDatabaseValidation, DatabaseValidationService>();
   
 var serviceBuilder = serviceCollection.BuildServiceProvider();
 var service = serviceBuilder.GetService<IUserInputConfigur>();
