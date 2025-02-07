@@ -1,31 +1,39 @@
-# MRI Classifier for Alzheimer's Disease
+# Weather Application
 
-CNN for Image Classification using Transfer Learning to predict one of 4 patient cases: Healthy, Mild, Moderated, Severe.
+Weather Application is a console-based pet project that allows users to display real-time weather information for a specific location. It demonstrates usage **Dependency Injection** for managing dependencies of **HTTP Requests** for interacting with a public API, **JSON Parsing** for handling API responses and **SQL Database** to save parsed data for further data analysis.
 
 ---
 
 ## Tech Stack
 
 ### Languages
-- Python
-- JavaScript
+- C#
 
 ### Frameworks / Libraries
-#### Backend:
-- Node.js
+- .NET Core
+- Dependency Injection via `Microsoft.Extensions.DependencyInjection`
+- HTTP requests via `HttpClient`
+- JSON Parsing via `System.Text.Json`
+- Database via `SQlite`
 
-#### Frontend:
-- Vue.js
-- Naive-ui
+### Backend
 
-#### Model:
-- Torch / Torchvision / Torchmetrics
-- Pandas / Numpy / Matplotlib
+- **Dependency Injection (DI):** Used to inject the UserInputConfigur, RequestProcessing and ApiConnection services.
+- **API Integration:** Connects to a public weather API to recive current weather data.
+- **JSON Parsing:** Processes the API response and gets weather information.
+- **Database:** Save parsed data for further data analysis.
 
 ---
 
-## How to start:
-1. Clone the repository to your local machine;
-2. install all dependencies for Node.js and Vue.js with command `npm i`;
-3. Open yout local host 8080;
-4. Upload a x-ray image and see the result.
+## 🛠 Features
+
+### 1. Provides Current Weather Data
+- Users enter a city name, and the application provides real-time weather information for that location, including temperature, weather conditions, humidity, cloudiness, and wind speed.
+
+### 2. Provides 5 Days Forecast
+- Application provides the 3 hour interval forecast for 5 days for users location.
+
+### 3. Saves Data in the Database
+- Data is saved in database, for future data analysis project.
+
+---
